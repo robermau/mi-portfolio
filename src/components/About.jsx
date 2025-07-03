@@ -1,6 +1,6 @@
 import { Code2, ArrowDown } from 'lucide-react';
-import cv from '../assets/CV Roberto Mauro Perez Olivera.pdf'; // Asegúrate de que el archivo exista en esta ruta
-
+import cv from '../assets/CV Roberto Mauro Perez Olivera.pdf'; 
+import image from '../assets/imagenUno.jpg';
 const About = () => {
   return (
     <section id="acerca" className="py-20 bg-white">
@@ -39,7 +39,7 @@ const About = () => {
           <div className="relative">
             <div className="overflow-hidden shadow-2xl aspect-square rounded-2xl">
               <img
-                src="./src/assets/imagenUno.jpg"
+                src={image}
                 alt="Espacio de trabajo del desarrollador"
                 className="object-cover w-full h-full"
               />
