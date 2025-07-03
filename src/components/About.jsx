@@ -39,7 +39,7 @@ const About = () => {
           <div className="relative">
             <div className="overflow-hidden shadow-2xl aspect-square rounded-2xl">
               <img
-                src="./src/assets/Imagen1.jpg"
+                src="./src/assets/imagenUno.jpg"
                 alt="Espacio de trabajo del desarrollador"
                 className="object-cover w-full h-full"
               />
