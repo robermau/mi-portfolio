@@ -6,28 +6,25 @@ import { Github, ExternalLink } from 'lucide-react';
 const Projects = () => {
   const projects = [
     {
-      title: "Mi tinerary",
-      description: "Una plataforma ver cultura general Egipcia, donde uno puede realizar un login con usuarios de google y comentar .",
+      title: "Mi Tinerary",
+      description: "Proyecto de viajes con enfoque en contenido cultural, autenticación de usuarios y comentarios, destacando la experiencia de usuario y la construcción de interfaces interactivas.",
       image: "https://i.imgur.com/RmDbLCW.mp4",
-      technologies: ["React", "JavaScript", "Tailwind", "Express", "Mongo DB"],
+      technologies: ["React", "Node.js", "Express", "MongoDB", "JWT", "Tailwind CSS"],
       liveUrl: "https://i.imgur.com/RmDbLCW.mp4",
-     
     },
     {
       title: "Amazing Events",
-      description: "Un proyecto donde uno puede ver los eventos disponibles segun filtrados.",
+      description: "Aplicación de eventos con filtros dinámicos y consumo de APIs, orientada a la exploración rápida de opciones y a la usabilidad del producto.",
       image: "https://i.imgur.com/fLvua7i.mp4",
-      technologies: ["JavaScript", "Boostrap", "Integracion Apis"],
+      technologies: ["JavaScript", "Bootstrap", "REST APIs", "Fetch API", "CSS"],
       liveUrl: "https://i.imgur.com/fLvua7i.mp4",
-     
     },
     {
       title: "Gea Store",
-      description: "Una E-commerce realizado en forma grupal en donde se puede comprar diferentes tipos de productos.",
+      description: "E-commerce colaborativo con catálogo de productos, flujo de compra claro y una arquitectura pensada para escalar y mantener la experiencia del usuario.",
       image: "https://i.imgur.com/EE44EMI.mp4",
-      technologies: ["ReactJS", "MongoDB","Express", "Tailwind"],
+      technologies: ["React", "Node.js", "Express", "MongoDB", "Tailwind CSS", "Context API"],
       liveUrl: "https://i.imgur.com/EE44EMI.mp4",
-    
     }
   ];
 

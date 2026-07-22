@@ -24,7 +24,7 @@ const Hero = () => {
           <h1 className="mb-6 text-5xl font-bold leading-tight md:text-7xl">
             Desarrollador
             <span className="block text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400">
-              Front-End
+              Full Stack
             </span>
           </h1>
           <p className="max-w-2xl mx-auto mb-8 text-xl leading-relaxed text-gray-200 md:text-2xl">

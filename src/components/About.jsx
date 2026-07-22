@@ -13,18 +13,13 @@ const About = () => {
         <div className="grid items-center gap-12 lg:grid-cols-2">
           <div className="space-y-6">
             <p className="text-lg leading-relaxed text-gray-700">
-              Soy un desarrollador front-end apasionado con más de 5 años de experiencia creando
-              aplicaciones web impresionantes y centradas en el usuario. Me especializo en React,
-              JavaScript y frameworks CSS modernos, manteniéndome siempre actualizado con las
-              últimas tendencias y mejores prácticas de la industria.
+              Soy un desarrollador con una visión amplia del mundo digital, capaz de trabajar desde la arquitectura de una solución hasta la implementación de experiencias web funcionales, atractivas y orientadas a negocio.
             </p>
             <p className="text-lg leading-relaxed text-gray-700">
-              Mi enfoque combina código limpio, diseño intuitivo y optimización del rendimiento
-              para ofrecer experiencias de usuario excepcionales. Creo en el poder de la colaboración
-              y el aprendizaje continuo para crear soluciones digitales que generen un impacto real.
+              He participado en proyectos de desarrollo web, automatización de procesos, integración de servicios y creación de soluciones sobre plataformas como React, Node.js, WordPress, PHP y herramientas de analítica y SEO, siempre con foco en la usabilidad, la escalabilidad y los resultados concretos.
             </p>
-              <p className="text-lg leading-relaxed text-gray-700">
-              Tambien tengo experiencia en desarrollo en empresas , En Censys Sa. estuve como Desarrollador Front end  con React realizando soporte y nuevas plataformas y tambien logre estar como Desarrollador Full Stack en una empresa extranjera en Chile  realizando plataformas necesarias para la administracion con diferentes tecnologias como pueden ver en mi Cv.
+            <p className="text-lg leading-relaxed text-gray-700">
+              Mi experiencia abarca tanto el trabajo en equipos técnicos como la ejecución autónoma de proyectos, incluyendo el desarrollo de sitios institucionales, plugins personalizados, mejoras de productos existentes y la optimización de procesos digitales para empresas y marcas.
             </p>
             <a
               href={cv}

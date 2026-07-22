@@ -7,31 +7,31 @@ const Skills = () => {
     {
       title: "Tecnologías Frontend",
       icon: <Code2 className="h-8 w-8" />,
-      skills: ["React", "JavaScript ES6+", "Next.js", "Typescript", "HTML5", "CSS3"],
+      skills: ["React", "JavaScript ES6+", "Next.js", "TypeScript", "HTML5", "CSS3"],
       color: "blue"
     },
     {
       title: "Estilos y Diseño",
       icon: <Palette className="h-8 w-8" />,
-      skills: ["Tailwind CSS", "Ant Desing", "Styled Components", "Boostrap", "Next UI", "Material UI"],
+      skills: ["Tailwind CSS", "Ant Design", "Styled Components", "Bootstrap", "Next UI", "Material UI"],
       color: "purple"
     },
     {
       title: "Herramientas y Flujo",
       icon: <Zap className="h-8 w-8" />,
-      skills: ["Git/GitHub", "Webpack", "Vite", "Lucid Chart" , "Jira"],
+      skills: ["Git/GitHub", "Webpack", "Vite", "Jira", "Trello", "Figma"],
       color: "teal"
     },
     {
       title: "Móvil y Rendimiento",
       icon: <Smartphone className="h-8 w-8" />,
-      skills: ["Diseño Responsivo", "PWA", "Web Vitals", "Optimización SEO", "Accesibilidad"],
+      skills: ["Diseño Responsivo", "PWA", "Web Vitals", "SEO", "GTM", "Google Analytics", "Accesibilidad"],
       color: "green"
     },
     {
       title: "Otros Conocimientos",
       icon: <Atom className="h-8 w-8" />,
-      skills: ["Node Js ", "Aws (lambda)", "Deployment" , "MySQL", "MongoDB", "Firebase"],
+      skills: ["Node.js", "Express", "PHP", "WordPress", "Elementor", "WooCommerce"],
       color: "green"
     }
   ];

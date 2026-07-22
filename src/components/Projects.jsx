@@ -1,15 +1,42 @@
 
-import { Github, ExternalLink} from 'lucide-react';
+import { ExternalLink} from 'lucide-react';
 import proyectoUno from "../assets/proyectoUno.png"
+import estudioAzar from "../assets/estudioAzar.png"
+import colfarma from "../assets/colfarma.png"
+import duro from "../assets/duro.png"
 
 
 const Projects = () => {
   const projects = [
     {
-      title: "Cacluladora de Alquileres",
-      description: "Una plataforma para calcular los alquileres segun siertos indices.",
+      title: "Estudio Azar",
+      description: "Desarrollo completo de la web institucional, incluyendo estructura, contenido, diseño y experiencia de usuario para una presencia digital sólida y profesional.",
+      image: estudioAzar,
+      technologies: ["WordPress", "Elementor", "Diseño Web", "SEO", "UX/UI"],
+      liveUrl: "https://estudioazar.com/",
+      githubUrl: "#"
+    },
+    {
+      title: "Farmacias de Turno - Colfarma",
+      description: "Desarrollo de un plugin para mostrar las farmacias de turno del día actual, con lógica de configuración y automatización para la publicación de información relevante.",
+      image: colfarma,
+      technologies: ["WordPress", "Plugin", "PHP", "Custom Post Type", "Lógica de Turnos"],
+      liveUrl: "https://colfarma.info/pilar/farmacias-de-turno/",
+      githubUrl: "#"
+    },
+    {
+      title: "Duro Web - Tipica Web",
+      description: "Diseño completo de la web, con enfoque en identidad visual, estructura de contenidos y una experiencia moderna para la marca.",
+      image: duro,
+      technologies: ["WordPress", "Diseño Web", "UI/UX", "Elementor", "Branding"],
+      liveUrl: "https://duro.web.tipicaweb.com/",
+      githubUrl: "#"
+    },
+    {
+      title: "Calculadora de Índice de Alquileres",
+      description: "Aplicación web full stack orientada a resolver una necesidad concreta con lógica de negocio, integración de APIs y una experiencia simple para el usuario final.",
       image: proyectoUno,
-      technologies: ["React", "JavaScript", "Tailwind", "Next UI", "Context API"],
+      technologies: ["React", "Node.js", "Express", "Tailwind CSS", "REST APIs", "MongoDB"],
       liveUrl: "https://calculadora-tecno-prop.vercel.app/",
       githubUrl: "#"
     },
@@ -42,7 +69,7 @@ const Projects = () => {
           </p>
         </div>
 
-        <div className="grid gap-8 lg:grid-cols-3">
+        <div className="grid gap-8 md:grid-cols-2 xl:grid-cols-4">
           {projects.map((project, index) => (
             <div
               key={index}
@@ -52,7 +79,7 @@ const Projects = () => {
                 <img
                   src={project.image}
                   alt={project.title}
-                  className="object-cover w-full h-48 transition-transform duration-300 hover:scale-110"
+                  className="object-contain w-full h-48 transition-transform duration-300 hover:scale-110 bg-gray-50"
                 />
                 <div className="absolute inset-0 flex items-end p-6 transition-opacity duration-300 opacity-0 bg-gradient-to-t from-black/50 to-transparent hover:opacity-100">
                   <div className="flex space-x-4">
@@ -61,12 +88,6 @@ const Projects = () => {
                       className="p-2 text-gray-900 transition-colors duration-200 bg-white rounded-full hover:bg-gray-100"
                     >
                       <ExternalLink className="w-4 h-4" />
-                    </a>
-                    <a
-                      href={project.githubUrl}
-                      className="p-2 text-gray-900 transition-colors duration-200 bg-white rounded-full hover:bg-gray-100"
-                    >
-                      <Github className="w-4 h-4" />
                     </a>
                   </div>
                 </div>
